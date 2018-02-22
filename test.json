@@ -5,7 +5,7 @@
     "tag:ortofoto",
     "tag:by"
   ],
-  enabledExtensions: [
+  "enabledExtensions": [
     "streetView",
     "conflictSearch"
   ]
