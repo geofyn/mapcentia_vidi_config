@@ -6,7 +6,6 @@
     "tag:by"
   ],
   "enabledExtensions": [
-    "streetView",
-    "conflictSearch"
+    "streetView"
   ]
 }
