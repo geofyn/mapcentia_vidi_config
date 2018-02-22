@@ -1,1 +1,10 @@
-
+{
+  "schemata": [
+    "public",
+    "tag:ortofoto"
+  ],
+  "enabledExtensions": [
+    "streetView",
+    "conflictSearch"
+  ]
+}
