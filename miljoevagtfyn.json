@@ -1,0 +1,9 @@
+{
+  "schemata": [
+    "public",
+    "tag:_miljoevagtfyn"
+  ],
+  "enabledExtensions": [
+    "streetView"
+  ]
+}
