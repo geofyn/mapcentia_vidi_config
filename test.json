@@ -13,13 +13,5 @@
     "skolevej",
     "session",
     "ejendom"
-  ],
-  "languages": {
-    "da_DK": {
-      "txt": "Dansk"
-    },
-    "en_US": {
-      "txt": "Engelsk"
-    }
-  }
+  ]
 }
