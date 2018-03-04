@@ -6,6 +6,9 @@
     "tag:by"
   ],
   "enabledExtensions": [
+    "conflictSearch",
+    "coordinates",
+    "languages",
     "streetView",
     "skolevej",
     "session",
