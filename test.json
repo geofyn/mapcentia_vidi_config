@@ -6,6 +6,9 @@
     "tag:by"
   ],
   "enabledExtensions": [
-    "streetView"
+    "streetView",
+    "skolevej",
+    "session",
+    "ejendom"
   ]
 }
