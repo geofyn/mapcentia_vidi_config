@@ -4,6 +4,8 @@
     "tag:_borgerkort01"
   ],
   "enabledExtensions": [
-    "streetView"
+    "streetView",
+    "coordinates",
+    "ejendom"
   ]
 }
