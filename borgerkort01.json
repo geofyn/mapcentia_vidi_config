@@ -2,7 +2,6 @@
   "schemata": [
     "public",
     "tag:_borgerkort01"
-    "conflictSearch"
   ],
   "enabledExtensions": [
     "streetView"
