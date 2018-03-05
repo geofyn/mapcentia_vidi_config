@@ -5,6 +5,9 @@
   ],
   "enabledExtensions": [
     "streetView",
-    "conflictSearch"
+    "conflictSearch",
+    "coordinates", 
+    "streetView",
+    "session",
   ]
 }
