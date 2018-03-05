@@ -4,6 +4,7 @@
     "tag:_miljoevagtfyn"
   ],
   "enabledExtensions": [
-    "streetView"
+    "streetView",
+    "conflictSearch"
   ]
 }
