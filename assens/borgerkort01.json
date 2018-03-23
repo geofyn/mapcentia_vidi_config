@@ -1,1 +1,11 @@
-xxx
+
+{
+  "schemata": [
+    "public",
+    "tag:_borgerkort01"
+  ],
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ]
+}
