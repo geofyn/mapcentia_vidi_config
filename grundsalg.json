@@ -1,0 +1,13 @@
+{
+  "schemata": [
+    "public",
+    "tag:_grundsalg"
+  ],
+  "enabledExtensions": [
+    "streetView",
+    "conflictSearch",
+    "coordinates", 
+    "streetView",
+    "session"
+  ]
+}
