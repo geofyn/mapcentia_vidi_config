@@ -2,8 +2,7 @@
 {
   "schemata": [
     "public",
-    "tag:ortofoto",
-    "tag:by"
+    "_test"
   ],
   "enabledExtensions": [
     "conflictSearch",
