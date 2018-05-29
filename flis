@@ -1,0 +1,13 @@
+{
+  "schemata": [
+    "public",
+    "tag:_flis"
+  ],
+  "enabledExtensions": [
+    "streetView",
+    "conflictSearch",
+    "coordinates", 
+    "streetView",
+    "session"
+  ]
+}
