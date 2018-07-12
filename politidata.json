@@ -1,0 +1,10 @@
+{
+  "schemata": [
+    "public",
+    "tag:politidata"
+  ],
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ]
+}
