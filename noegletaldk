@@ -1,0 +1,9 @@
+{
+  "schemata": [
+    "tag:noegletaldk"
+  ],
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ]
+}
