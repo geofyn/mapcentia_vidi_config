@@ -1,0 +1,11 @@
+
+{
+  "schemata": [
+    "public"
+  ],
+  "enabledExtensions": [
+    "session",
+    "offlineMap",
+    "editor"
+  ]
+}
