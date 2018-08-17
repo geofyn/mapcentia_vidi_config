@@ -8,7 +8,6 @@
     "coordinates",
     "session",
     "offlineMap",
-    "keplergl",
-    "vidisearch"
+    "keplergl"
   ]
 }
