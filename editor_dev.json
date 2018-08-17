@@ -7,5 +7,6 @@
     "session",
     "offlineMap",
     "editor"
-  ]
+  ],
+  "template": "embed.tmpl"
 }
