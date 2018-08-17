@@ -8,7 +8,6 @@
     "coordinates",
     "session",
     "offlineMap",
-    "keplergl",
-    "editor"
+    "keplergl"
   ]
 }
