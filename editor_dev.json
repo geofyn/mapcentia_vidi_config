@@ -6,6 +6,7 @@
   "enabledExtensions": [
     "session",
     "offlineMap",
+    "embed",
     "editor"
   ],
   "template": "embed.tmpl"
