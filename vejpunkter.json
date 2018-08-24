@@ -1,0 +1,13 @@
+{
+  "schemata": [
+    "public",
+    "tag:_vejpunkter"
+  ],
+  "enabledExtensions": [
+    "streetView",
+    "conflictSearch",
+    "coordinates", 
+    "streetView",
+    "session"
+  ]
+}
