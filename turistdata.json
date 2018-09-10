@@ -1,7 +1,7 @@
 {
   "schemata": [
     "public",
-    "tag:turistdata"
+    "tag:_turistdata"
   ],
   "enabledExtensions": [
     "streetView",
