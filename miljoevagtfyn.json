@@ -9,6 +9,7 @@
     "coordinates", 
     "streetView",
     "session",
+    "editor",
     "embed"
   ],
   "template": "embed.tmpl"
