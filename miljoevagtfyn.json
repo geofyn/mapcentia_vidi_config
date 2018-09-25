@@ -11,5 +11,5 @@
     "session",
     "embed"
   ],
-  "template","embed.tmpl"
+  "template": "embed.tmpl"
 }
