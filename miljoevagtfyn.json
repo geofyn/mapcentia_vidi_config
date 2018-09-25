@@ -8,6 +8,8 @@
     "conflictSearch",
     "coordinates", 
     "streetView",
-    "session"
-  ]
+    "session",
+    "embed"
+  ],
+  "template","embed.tmpl"
 }
