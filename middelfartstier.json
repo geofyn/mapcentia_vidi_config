@@ -1,0 +1,10 @@
+{
+  "schemata": [
+    "public",
+    "tag:_Middelfartstier"
+  ],
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ]
+}
