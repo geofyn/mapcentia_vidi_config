@@ -1,7 +1,8 @@
 
 {
   "schemata":[
-    "vejdirektoratet"
+    "public",
+    "naturdatabasen"
   ],
  
  "brandName": "Kitchen sink demo",
@@ -13,18 +14,16 @@
 
       ]
   },
- 
- "enabledExtensions": [
-        "findNearest",
-        "conflictSearch",
-        "streetView",
-        "layerSearch",
-        "coordinates",
-        "isochrone",
-        "ejendom",
-        "languages",
-        "skolevej"
- ],
+  "enabledExtensions": [
+    "conflictSearch",
+    "streetView",
+    "coordinates",
+    "skolevej",
+    "isochrone",
+    "vidisearch",
+    "editor"
+  ]
+
  
  "baseLayers": [
         {
