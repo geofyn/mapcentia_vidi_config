@@ -8,11 +8,10 @@
  "brandName": "Kitchen sink demo",
  
  "searchModules": ["google", "danish"],
-    "enabledSearch": "danish",
-    "searchConfig": {
-        "komkode": "*"
-    }
-  },
+ "enabledSearch": "danish",
+ "searchConfig": {
+       "komkode": "*"
+ },
   "enabledExtensions": [
     "conflictSearch",
     "streetView",
