@@ -1,15 +1,10 @@
 {
   "schemata": [
     "public",
-    "naturdatabasen"
+    "tag:_borgerkort01"
   ],
   "enabledExtensions": [
-    "conflictSearch",
     "streetView",
-    "coordinates",
-    "skolevej",
-    "isochrone",
-    "vidisearch",
-    "editor"
+    "coordinates"
   ]
 }
