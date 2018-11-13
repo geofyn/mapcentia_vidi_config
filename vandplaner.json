@@ -1,0 +1,10 @@
+{
+  "schemata": [
+    "public",
+    "tag:_vandplaner"
+  ],
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ]
+}
