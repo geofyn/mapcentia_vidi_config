@@ -1,0 +1,10 @@
+{
+  "schemata": [
+    "public",
+    "tag:_trafiktaelling"
+  ],
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ]
+}
