@@ -1,0 +1,10 @@
+{
+  "schemata": [
+    "public",
+    "tag:internpoliti"
+  ],
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ]
+}
