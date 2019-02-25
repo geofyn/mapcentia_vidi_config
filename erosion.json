@@ -1,0 +1,10 @@
+{
+  "schemata": [
+    "public",
+    "tag:_erosion"
+  ],
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ]
+}
