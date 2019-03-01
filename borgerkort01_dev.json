@@ -6,9 +6,9 @@
   "enabledExtensions": [
     "streetView",
     "coordinates",
-    "session",
-    "offlineMap",
-    "keplergl",
+    //"session",
+    //"offlineMap",
+    //"keplergl",
     "conflictSearch"
   ]
 }
