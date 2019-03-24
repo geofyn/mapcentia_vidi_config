@@ -1,0 +1,12 @@
+{
+  "schemata": [
+    "public"
+  ],
+  "enabledExtensions": [
+    "streetView",
+    "coordinates",
+    "ejendom",
+    "editor",
+    "session"
+  ]
+}
