@@ -10,8 +10,7 @@
     "streetView",
     "session",
     "editor",
-    "embed",
     "offlineMap"
   ],
-  "template": "embed.tmpl"
+  "template": "default.tmpl"
 }
