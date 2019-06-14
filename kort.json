@@ -1,0 +1,10 @@
+{
+  "schemata": [
+    "public",
+    "tag:_kort"
+  ],
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ]
+}
