@@ -1,0 +1,10 @@
+{
+  "schemata": [
+    "public",
+    "tag:_bikeislandfyn"
+  ],
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ]
+}
