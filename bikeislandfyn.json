@@ -5,6 +5,7 @@
   ],
   "enabledExtensions": [
     "streetView",
-    "coordinates"
+    "coordinates",
+"embed"
   ]
 }
