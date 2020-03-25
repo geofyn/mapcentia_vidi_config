@@ -1,0 +1,11 @@
+{
+  "schemata": [
+    "public",
+    "tag:_bikefriends"
+  ],
+  "enabledExtensions": [
+    "streetView",
+    "coordinates",
+"embed"
+  ]
+}
