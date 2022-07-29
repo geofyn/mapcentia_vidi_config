@@ -1,16 +1,11 @@
 #find-me-btn,
 #burger-btn,
 #full-screen-btn,
-#about-btn,
 #session,
 #legend-dialog,
-#base-layers-btn,
 #place-search,
 #mapcontrols-history-backward,
 #mapcontrols-history-forward
 {
   display:none !important;
-  display:about-btn;
-  #base-layers-btn
-
 }
