@@ -1,6 +1,7 @@
 #find-me-btn,
 #burger-btn,
 #full-screen-btn,
+#about-btn,
 #session,
 #legend-dialog,
 #base-layers-btn,
@@ -9,4 +10,5 @@
 #mapcontrols-history-forward
 {
   display:none !important;
+  
 }
