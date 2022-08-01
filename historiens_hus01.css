@@ -9,3 +9,6 @@
 {
   display:none !important;
 }
+#embed-legend-panel {
+    display: none;
+}
