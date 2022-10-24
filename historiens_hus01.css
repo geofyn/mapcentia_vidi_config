@@ -33,7 +33,7 @@ src:url("https://use.typekit.net/af/b22996/00000000000000007735a0e8/30/l?primer=
 font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
 }
 
-h3,#custom-search {
+h1,h2,h3,#custom-search {
   font-family: "oswald",sans-serif;
   color: #0d694b;
 }
