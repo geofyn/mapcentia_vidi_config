@@ -12,7 +12,7 @@
     display: none;
 }
 
-nav, .offcanvas-header, .help-btn, .list-group > div {
+nav, .offcanvas-header, .help-btn, .list-group > div, .nav-pills {
     display: none !important;
 }
 
