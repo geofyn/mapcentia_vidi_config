@@ -16,6 +16,10 @@ nav, #mainLayerOffcanvas .offcanvas-header, .help-btn, .list-group > div, .nav-p
     display: none !important;
 }
 
+.leaflet-top {
+    top: auto !important;
+}
+
 /*
  * The Typekit service used to deliver this font or fonts for use on websites
  * is provided by Adobe and is subject to these Terms of Use
