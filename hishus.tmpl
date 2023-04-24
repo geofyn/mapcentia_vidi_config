@@ -1,0 +1,179 @@
+<style>
+    .leaflet-control-custom, .history-control, .leaflet-control-boxzoom {
+        display: inline;
+    }
+
+    .layer-filter,
+    .leaflet-control-locate,
+    .leaflet-control-custom,
+    .history-control {
+        display: none;
+    }
+    .navbar {
+        --bs-navbar-padding-y: 0;
+    }
+</style>
+<!-- map -->
+<div id="pane">
+    <div id="container">
+        <div id="map"></div>
+    </div>
+</div>
+
+<!-- About Modal -->
+<div class="modal fade" id="about-modal" tabindex="-1" role="dialog" aria-labelledby="about-modalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="about-modalLabel">{{About}}</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="{{Close}}"></button>
+            </div>
+            <div class="modal-body">
+                {{{aboutBox}}}
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">{{Close}}</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Login Modal -->
+<div class="modal" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="click-modalLabel">
+    <div class="modal-dialog modal-fullscreen" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="login-modalLabel">{{Sign in}}</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="{{Close}}"></button>
+            </div>
+            <div class="modal-body" id="login-modal-body"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">{{Close}}</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="https://www.historienshus.dk/">
+            <span class="d-none d-md-inline">
+                    <img style="width: 100px" src="https://www.historienshus.dk/-/media/websites/historienshus/historienshuslogonegativbolder-14-12-2020.svg?iar=0&amp;mh=33"
+                         class="menu__logo" alt="Link til forside">
+            </span>
+        </a>
+        <div class="navbar-nav flex-row gap-1">
+            <button id="offcanvasLayerControlBtn"
+                    class="btn btn-primary text-nowrap" type="button"
+            >
+                <span class="d-none d-md-inline">Menu</span> <i class="bi bi-arrow-bar-right"></i>
+            </button>
+            <div class="input-group d-none" id="edit-tool-group">
+                <span class="input-group-text"><i class="bi bi-pencil"></i></span>
+                <button id="offcanvasEditBtn"
+                        class="btn btn-secondary nav-edit-btn edit-attr-btn" disabled type="button"
+                >
+                    <span class="d-none d-md-inline">Form</span> <i class="bi bi-arrow-bar-right"></i>
+                </button>
+                <button id="editStopBtn"
+                        class="btn btn-danger nav-edit-btn" type="button"
+                >
+                    <i class="bi bi-slash-circle"></i> <span class="d-none d-md-inline">{{Cancel}}</span>
+                </button>
+            </div>
+
+        </div>
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <form class="d-flex mt-3 mt-sm-0 me-2" role="search">
+                <div class="places">
+                    <input class="form-control me-2 custom-search typeahead" id="custom-search" type="text"
+                           placeholder="Search" aria-label="Search">
+                    <i class="bi bi-x-lg text-dark" id="searchclear"></i>
+                </div>
+            </form>
+            <ul class="navbar-nav me-2">
+                <li class="nav-item">
+                    <a class="nav-link text-light" id="btn-reset" href="#">Reset</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" data-bs-toggle="modal" data-bs-target="#about-modal" href="#">{{About}}</a>
+                </li>
+            </ul>
+            <div class="navbar-nav">
+                <button class="btn btn-primary sign-in-btn d-none" data-bs-toggle="modal" data-bs-target="#login-modal">
+                    <i class="bi bi-person"></i><span class="gc2-session-btn-text"> {{Sign in}}</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="fade-then-dragging">
+
+    <div class="offcanvas offcanvas-start" data-bs-backdrop="false" tabindex="-1" id="mainLayerOffcanvas">
+        <div class="offcanvas-header mt-5">
+            <h5 class="offcanvas-title">Luftfotos</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body pe-3 ps-3 pb-3" id="base-layer-list"></div>
+    </div>
+
+    <div class="offcanvas offcanvas-start" data-bs-backdrop="false" tabindex="-1" id="offcanvasInfo">
+        <div class="offcanvas-header mt-5">
+            <h5 class="offcanvas-title">Info</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" id="offcanvas-info-container"></div>
+    </div>
+
+    <div class="offcanvas offcanvas-start" data-bs-backdrop="false" tabindex="-1" id="offcanvasLayerDesc">
+        <div class="offcanvas-header mt-5">
+            <h5 class="offcanvas-title">Info</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" id="offcanvas-layer-desc-container"></div>
+    </div>
+
+    <div class="offcanvas offcanvas-start" data-bs-backdrop="false" tabindex="-1" id="offcanvas-edit-start">
+        <div class="offcanvas-header mt-5">
+            <h5 class="offcanvas-title">Edit</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body"></div>
+    </div>
+
+    <div class="offcanvas offcanvas-bottom" data-bs-backdrop="false" tabindex="-1" id="offcanvas-edit-bottom"
+         style="height: 50vh">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body"></div>
+    </div>
+
+</div>
+
+<div class="toast-container bottom-0 end-0 p-3">
+    <div id="info-toast" class="toast align-items-center text-bg-primary border-0" role="alert" aria-live="assertive"
+         aria-atomic="true">
+        <div class="d-flex">
+            <div class="toast-body" id="info-toast-body"></div>
+        </div>
+    </div>
+</div>
+
+<div class="toast-container position-fixed bottom-0 end-0 p-3 pb-5">
+    <div id="legend-toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            <strong class="me-auto">{{Legend}}</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body" id="legend-toast-body">
+        </div>
+    </div>
+</div>
