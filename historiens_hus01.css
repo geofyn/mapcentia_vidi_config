@@ -19,7 +19,7 @@ src:url("https://use.typekit.net/af/b22996/00000000000000007735a0e8/30/l?primer=
 font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
 }
 
-h1,h2,h3,#custom-search,#loadscreentext {
+h1,h2,h3,h4,h5,#custom-search,#loadscreentext {
   font-family: "oswald",sans-serif !important;
   color: #0d694b !important;
 }
