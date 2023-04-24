@@ -20,8 +20,8 @@ font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
 }
 
 h1,h2,h3,#custom-search,#loadscreentext {
-  font-family: "oswald",sans-serif;
-  color: #0d694b;
+  font-family: "oswald",sans-serif !important;
+  color: #0d694b !important;
 }
 #loadscreen .dot {
     background: #0d694b;
