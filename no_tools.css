@@ -13,3 +13,7 @@
 {
   display:none !important;
 }
+
+.leaflet-popup-content {
+  width: auto !important;
+}
