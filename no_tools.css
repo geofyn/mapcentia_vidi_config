@@ -1,4 +1,4 @@
-﻿#find-me-btn,
+#find-me-btn,
 #burger-btn,
 #full-screen-btn,
 #about-btn,
@@ -8,7 +8,8 @@
 #place-search,
 #mapcontrols-history-backward,
 #mapcontrols-history-forward,
-#btn-show-legend-in-map
+#btn-show-legend-in-map,
+.navbar-tool-btn
 {
   display:none !important;
 }
