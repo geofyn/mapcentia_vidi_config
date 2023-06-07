@@ -9,7 +9,8 @@
 #mapcontrols-history-backward,
 #mapcontrols-history-forward,
 #btn-show-legend-in-map,
-.navbar-tool-btn
+.navbar-tool-btn,
+.navbar-toggler
 {
   display:none !important;
 }
