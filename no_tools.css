@@ -11,7 +11,7 @@
 #btn-show-legend-in-map,
 .navbar-tool-btn,
 .navbar-toggler,
-navbarSupportedContent
+#navbarSupportedContent
 {
   display:none !important;
 }
