@@ -10,7 +10,8 @@
 #mapcontrols-history-forward,
 #btn-show-legend-in-map,
 .navbar-tool-btn,
-.navbar-toggler
+.navbar-toggler,
+navbarSupportedContent
 {
   display:none !important;
 }
