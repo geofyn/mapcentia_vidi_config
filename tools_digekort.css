@@ -1,0 +1,12 @@
+#find-me-btn,
+#full-screen-btn,
+#session,
+#place-search,
+#mapcontrols-history-backward,
+#mapcontrols-history-forward
+{
+  display:none !important;
+}
+#embed-legend-panel {
+    display: none;
+}
