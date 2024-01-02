@@ -10782,7 +10782,7 @@ textarea.form-control-lg {
 }
 
 .navbar {
-  z-index: 99999;
+  z-index: 1046;
 }
 
 .js-toggle-layer-panel {
