@@ -1,3 +1,9 @@
 .leaflet-top {
     top: 0 !important;
 }
+
+.layer-filter {
+
+    display: none;
+
+}
