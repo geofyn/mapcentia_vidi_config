@@ -1,4 +1,4 @@
-.history-control, .leaflet-control-locate, .leaflet-control-measurements, .leaflet-control-custom:not(.full-screen-btn), .navbar-brand, #offcanvasLayerControlBtn, .sign-in-btn, .about-btn, .offcanvas-header, .leaflet-control-simpleMapScreenshoter, .place-search, #edit-tool-group, .navbar-tool-btn, .btn-outline-secondary {
+.history-control, .leaflet-control-locate, .leaflet-control-measurements, .leaflet-control-custom:not(.full-screen-btn), .navbar-brand, #offcanvasLayerControlBtn, .sign-in-btn, .about-btn, .offcanvas-header, .leaflet-control-simpleMapScreenshoter, #edit-tool-group, .navbar-tool-btn, .btn-outline-secondary {
   display:none !important;
 }
 
