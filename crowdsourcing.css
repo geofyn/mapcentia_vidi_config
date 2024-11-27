@@ -1,3 +1,11 @@
-.history-control, .leaflet-control-locate, .leaflet-control-measurements, .leaflet-control-custom:not(.full-screen-btn), .navbar-brand, #offcanvasLayerControlBtn, .sign-in-btn, .about-btn {
+.history-control, .leaflet-control-locate, .leaflet-control-measurements, .leaflet-control-custom:not(.full-screen-btn), .navbar-brand, #offcanvasLayerControlBtn, .sign-in-btn, .about-btn, .offcanvas-header, .leaflet-control-simpleMapScreenshoter, .place-search, #edit-tool-group, .navbar-tool-btn, .btn-outline-secondary {
   display:none !important;
+}
+
+#offcanvas-edit-bottom {
+  height: 35vh !important;
+}
+
+.leaflet-top {
+  top: 0 !important
 }
