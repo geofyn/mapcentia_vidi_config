@@ -1,0 +1,3 @@
+.history-control, .leaflet-control-locate, .leaflet-control-measurements, .leaflet-control-custom:not(.full-screen-btn), .navbar-brand, #offcanvasLayerControlBtn, .sign-in-btn, .about-btn {
+  display:none !important;
+}
